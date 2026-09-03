@@ -9,9 +9,14 @@ export function Footer() {
         <p className="text-sm text-muted">
           © {new Date().getFullYear()} Squat Alarm. Not affiliated with Apple Inc.
         </p>
-        <Link href="/privacy" className="text-sm text-muted hover:text-foreground">
-          Privacy Policy
-        </Link>
+        <div className="flex gap-6">
+          <Link href="/support" className="text-sm text-muted hover:text-foreground">
+            Support
+          </Link>
+          <Link href="/privacy" className="text-sm text-muted hover:text-foreground">
+            Privacy Policy
+          </Link>
+        </div>
       </div>
     </footer>
   );
