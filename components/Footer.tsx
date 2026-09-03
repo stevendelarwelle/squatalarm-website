@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Logo } from "./Logo";
 
 export function Footer() {
@@ -8,6 +9,9 @@ export function Footer() {
         <p className="text-sm text-muted">
           © {new Date().getFullYear()} Squat Alarm. Not affiliated with Apple Inc.
         </p>
+        <Link href="/privacy" className="text-sm text-muted hover:text-foreground">
+          Privacy Policy
+        </Link>
       </div>
     </footer>
   );
