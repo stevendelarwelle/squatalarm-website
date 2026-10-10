@@ -1,6 +1,6 @@
+import { AppStoreButton } from "./AppStoreButton";
 import { PhoneFrame } from "./PhoneFrame";
 import { RepRingMock } from "./RepRingMock";
-import { SignupForm } from "./SignupForm";
 
 export function Hero() {
   return (
@@ -8,7 +8,7 @@ export function Hero() {
       <div>
         <p className="mb-5 inline-flex items-center gap-2 rounded-full border border-border bg-surface px-3 py-1 text-xs font-medium text-muted">
           <span className="h-1.5 w-1.5 rounded-full bg-accent" />
-          Coming soon to iOS
+          Available now on iOS
         </p>
 
         <h1 className="text-4xl font-bold tracking-tight text-balance sm:text-5xl">
@@ -22,8 +22,8 @@ export function Hero() {
           shake-to-dismiss, no snooze loophole, no going back to sleep.
         </p>
 
-        <div className="mt-10 max-w-md">
-          <SignupForm />
+        <div className="mt-10">
+          <AppStoreButton />
         </div>
       </div>
 
