@@ -41,9 +41,8 @@ export function Pricing() {
           Simple pricing
         </h2>
         <p className="mt-3 max-w-xl text-muted">
-          Free to start. Upgrade when you&apos;re ready for more than one alarm.
-          Pricing goes live with the app — join the waitlist below to lock in
-          launch pricing.
+          Free to start. Upgrade in the app when you&apos;re ready for more
+          than one alarm.
         </p>
 
         <div className="mt-12 grid gap-6 md:grid-cols-3">
